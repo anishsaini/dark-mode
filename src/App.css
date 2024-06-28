@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.App {
+  background-color: var(--body_background);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--bady_color);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -38,5 +50,5 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: var(--link-color);
 }

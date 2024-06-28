@@ -50,19 +50,3 @@
   top: 5px;
   z-index: 100;
 }
-.dark_mode_label svg.sun {
-  left: 5px;
-  fill: #fff;
-  transition: 0.3s;
-}
-.dark_mode_label svg.moon {
-  left: 40px;
-  fill: #7e7e7e;
-  transition: 0.3s;
-}
-.dark_mode_input:checked + .dark_mode_label svg.sun {
-  fill: #7e7e7e;
-}
-.dark_mode_input:checked + .dark_mode_label svg.moon {
-  fill: #fff;
-}

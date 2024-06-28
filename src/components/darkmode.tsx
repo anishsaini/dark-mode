@@ -1,6 +1,5 @@
 import './darkmode.css'
-// import './Moon.svg'
-// import './Sun.svg'
+
 
 const DarkMode = () => {
     return (
@@ -11,8 +10,7 @@ const DarkMode = () => {
                 id='darkmode-toggle'
             />
             <label className='dark_mode_label' htmlFor='darkmode-toggle'>
-                {/* Sun and Moon 
-                components need to be imported */}
+                
             </label>
         </div>
     );
